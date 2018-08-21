@@ -1,0 +1,692 @@
+
+templates_delete_ad1fe156-490a-4ef3:
+
+vms_delete_f3d4fe0f-0c7b-469c:
+
+******* ERRORS & WARNINGS *******
+2018-04-14 21:08:07,186+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:07,203+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:07,208+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:08:07,209+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:08:17,765+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:17,784+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:17,787+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:08:17,788+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:08:28,346+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:28,362+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:28,366+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:08:28,367+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:08:38,902+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:38,922+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:08:38,935+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:38,953+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:08:49,457+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:49,480+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:08:49,483+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:08:49,485+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:00,046+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:00,064+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:00,070+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:00,071+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:09:10,626+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:10,641+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:10,650+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:10,651+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:09:21,205+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:21,220+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:21,224+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:09:21,225+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:31,784+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:31,802+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:31,807+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:31,809+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:09:42,377+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:42,395+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:42,400+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:42,402+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:09:52,955+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:52,966+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:09:52,977+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:09:52,978+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:10:02,456+0300 WARN  (jsonrpc/0) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:02,459+0300 WARN  (jsonrpc/0) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:02,461+0300 WARN  (jsonrpc/0) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:02,469+0300 WARN  (jsonrpc/0) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:02,963+0300 DEBUG (jsonrpc/0) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:04,000+0300 WARN  (monitor/125cdd3) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:04,003+0300 WARN  (monitor/125cdd3) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:04,004+0300 WARN  (monitor/125cdd3) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:04,012+0300 WARN  (monitor/125cdd3) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:04,391+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:10:04,410+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:10:05,155+0300 WARN  (monitor/c957d85) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:05,158+0300 WARN  (monitor/c957d85) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:05,159+0300 WARN  (monitor/c957d85) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:05,166+0300 WARN  (monitor/c957d85) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:05,529+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:10:05,555+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
+2018-04-14 21:10:06,820+0300 WARN  (jsonrpc/5) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:06,823+0300 WARN  (jsonrpc/5) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:06,824+0300 WARN  (jsonrpc/5) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:06,832+0300 WARN  (jsonrpc/5) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:07,138+0300 DEBUG (jsonrpc/5) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:08,765+0300 WARN  (monitor/519cca7) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:08,767+0300 WARN  (monitor/519cca7) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:08,769+0300 WARN  (monitor/519cca7) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:08,776+0300 WARN  (monitor/519cca7) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:09,274+0300 DEBUG (monitor/519cca7) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:09,611+0300 DEBUG (monitor/519cca7) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:10,050+0300 WARN  (monitor/b5ba140) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:10,053+0300 WARN  (monitor/b5ba140) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:10,054+0300 WARN  (monitor/b5ba140) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:10,061+0300 WARN  (monitor/b5ba140) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:10,376+0300 DEBUG (monitor/b5ba140) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:10,690+0300 DEBUG (monitor/b5ba140) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:11,183+0300 WARN  (monitor/e99d85f) [storage.Multipath] Map '3600a09803830447a4f244c465759525a' has no slaves (multipath:107)
+2018-04-14 21:10:11,185+0300 WARN  (monitor/e99d85f) [storage.Multipath] Map '3600a09803830447a4f244c4657595258' has no slaves (multipath:107)
+2018-04-14 21:10:11,187+0300 WARN  (monitor/e99d85f) [storage.Multipath] Map '3600a09803830447a4f244c4657595259' has no slaves (multipath:107)
+2018-04-14 21:10:11,194+0300 WARN  (monitor/e99d85f) [storage.Multipath] Map '3600a09803830447a4f244c4657595264' has no slaves (multipath:107)
+2018-04-14 21:10:11,479+0300 DEBUG (monitor/e99d85f) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:11,770+0300 DEBUG (monitor/e99d85f) [storage.Misc.excCmd] SUCCESS: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n'; <rc> = 0 (commands:86)
+2018-04-14 21:10:14,929+0300 DEBUG (monitor/125cdd3) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "125cdd3c-128e-4a03-83ff-5c2066d6b267" not found\n  Cannot process volume group 125cdd3c-128e-4a03-83ff-5c2066d6b267\n'; <rc> = 5 (commands:86)
+2018-04-14 21:10:14,949+0300 ERROR (monitor/125cdd3) [storage.Monitor] Setting up monitor for 125cdd3c-128e-4a03-83ff-5c2066d6b267 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('125cdd3c-128e-4a03-83ff-5c2066d6b267',)
+2018-04-14 21:10:15,889+0300 DEBUG (monitor/c957d85) [storage.Misc.excCmd] FAILED: <err> = '  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c465759525a: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595258: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106061824: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595259: read failed after 0 of 4096 at 16106119168: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 0: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585092608: Input/output error\n  /dev/mapper/3600a09803830447a4f244c4657595264: read failed after 0 of 4096 at 37585149952: Input/output error\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c465759525a was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595258 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595259 was disabled\n  WARNING: Error counts reached a limit of 3. Device /dev/mapper/3600a09803830447a4f244c4657595264 was disabled\n  Volume group "c957d851-8004-4673-abef-fe59d6af38b0" not found\n  Cannot process volume group c957d851-8004-4673-abef-fe59d6af38b0\n'; <rc> = 5 (commands:86)
+2018-04-14 21:10:15,910+0300 ERROR (monitor/c957d85) [storage.Monitor] Setting up monitor for c957d851-8004-4673-abef-fe59d6af38b0 failed (monitor:329)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 326, in _setupLoop
+    self._setupMonitor()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 348, in _setupMonitor
+    self._produceDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/utils.py", line 158, in wrapper
+    value = meth(self, *a, **kw)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/monitor.py", line 366, in _produceDomain
+    self.domain = sdCache.produce(self.sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 110, in produce
+    domain.getRealDomain()
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 51, in getRealDomain
+    return self._cache._realProduce(self._sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 134, in _realProduce
+    domain = self._findDomain(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/sdc.py", line 151, in _findDomain
+    return findMethod(sdUUID)
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1637, in findDomain
+    return BlockStorageDomain(BlockStorageDomain.findDomainPath(sdUUID))
+  File "/usr/lib/python2.7/site-packages/vdsm/storage/blockSD.py", line 1577, in findDomainPath
+    raise se.StorageDomainDoesNotExist(sdUUID)
+StorageDomainDoesNotExist: Storage domain does not exist: ('c957d851-8004-4673-abef-fe59d6af38b0',)
