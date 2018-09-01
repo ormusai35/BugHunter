@@ -11,8 +11,8 @@
         <div class="top" style="background-image: url({{ url_for('static', filename='images/picRedHat.jpg')}})">
             <div class="budget" >
 
-                <div class="budget__value">Bug Hunter!</div>
-                <div class="description">this tool identify outomatically the cause and the flow of a test failure of Red Hat virtualization product.</div><br>
+                <div class="budget__value" align="center">Bug Hunter!</div>
+                <div class="description" align="center">this tool identify outomatically the cause and the flow of a test failure of Red Hat virtualization product.</div><br>
 
                 <div class="uploads">
                     <!--Engine file:  <input  class="upload_txt1" type="file">-->
@@ -23,15 +23,15 @@
                     <!--<button class="upload_btn3" type="button">Upload</button><br><br>-->
                     <!--<button class="analyze" type="button">start analyze</button>-->
                     <form id="engine_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
-                        Enter Engine File:  <input type = "file" name = "file1" accept="logfiles/" multiple/><br><br>
-                    <form id="engine_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
-                        Enter Art-Log File: <input type = "file" name = "file2" accept="logfiles/" multiple/><br><br>
-                    <form id="first" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
-                        Enter VDSM-1 File: <input type = "file" name = "file1" accept="logfiles/" multiple/><br><br>
-                    <form id="second" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
-                        Enter VDSM-2 File: <input type = "file" name = "file2" accept="logfiles/" multiple/><br><br>
-                    <form id="first" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
-                        Enter VDSM-3 File: <input type = "file" name = "file1" accept="logfiles/" multiple/><br><br>
+                        Engine File:  <input type = "file" name = "file1" accept="logfiles/" multiple/><br><br>
+                    <form id="artlog_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
+                        Art-Log File: <input type = "file" name = "file2" accept="logfiles/" multiple/><br><br>
+                    <form id="vdsm1_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
+                        VDSM-1 File: <input type = "file" name = "file3" accept="logfiles/" multiple/><br><br>
+                    <form id="vdsm2_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
+                        VDSM-2 File: <input type = "file" name = "file4" accept="logfiles/" multiple/><br><br>
+                    <form id="vdsm3_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
+                        VDSM-3 File: <input type = "file" name = "file5" accept="logfiles/" multiple/><br><br>
                         <input  style="width: 120px; height: 40px; border-radius: 12px; font-size: 20px" type = "submit" value="upload" />
                 </div>
             </div>
