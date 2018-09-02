@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/res.css')}}">
+    </head>
+
+    <body style="background-image: url({{ url_for('static', filename='images/picRedHat.jpg')}})">
+        <a href="/"><input class="back" type=”button” value=back></a>
+             <div class="budget__value">Bug Hunter!</div>
+         <div class="outputs">
+
+                <h2>engine output: </h2>
+                <div class="out">
+                   {{engine_output}}
+                </div>
+                <h2>vdsm1 output: </h2>
+                <div class="out">
+                   {{vdsm1_output}}
+                </div>
+                <h2>vdsm2 output: </h2>
+                <div class="out">
+                   {{vdsm2_output}}
+                </div>
+                <h2>vdsm3 output: </h2>
+                <div class="out">
+                   {{vdsm3_output}}
+                </div>
+        </div>
+    </body>
+</html>

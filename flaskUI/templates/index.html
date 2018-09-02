@@ -3,25 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
-        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/out.css')}}">
     </head>
-    <body>
+    <body style="background-image: url({{ url_for('static', filename='images/picRedHat.jpg')}})">
 
-        <div class="top" style="background-image: url({{ url_for('static', filename='images/picRedHat.jpg')}})">
+        <div>
             <div class="budget" >
 
-                <div class="budget__value" align="center">Bug Hunter!</div>
+                <div class="budget__value">Bug Hunter!</div>
                 <div class="description" align="center">this tool identify outomatically the cause and the flow of a test failure of Red Hat virtualization product.</div><br>
 
                 <div class="uploads">
-                    <!--Engine file:  <input  class="upload_txt1" type="file">-->
-                    <!--<button class="upload_btn1" type="button">Uaplod</button><br><br>-->
-                    <!--Art-log file: <input  class="upload_txt2" type="file" value="write path here">-->
-                    <!--<button class="upload_btn2" type="button">Upload</button><br><br>-->
-                     <!--VDSM file: &nbsp <input  class="upload_txt3" type="file" value="write path here">-->
-                    <!--<button class="upload_btn3" type="button">Upload</button><br><br>-->
-                    <!--<button class="analyze" type="button">start analyze</button>-->
                     <form id="engine_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
                         Engine File:  <input type = "file" name = "file1" accept="logfiles/" multiple/><br><br>
                     <form id="artlog_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
@@ -32,15 +24,9 @@
                         VDSM-2 File: <input type = "file" name = "file4" accept="logfiles/" multiple/><br><br>
                     <form id="vdsm3_up" action="{{url_for('upload')}}" method = "POST" enctype = "multipart/form-data"/>
                         VDSM-3 File: <input type = "file" name = "file5" accept="logfiles/" multiple/><br><br>
-                        <input  style="width: 120px; height: 40px; border-radius: 12px; font-size: 20px" type = "submit" value="upload" />
+                       <input class="button" type = "submit" value="Run Bug Hunter!"/>
                 </div>
             </div>
         </div>
-
-        <div class="bottom">
-            <textarea readonly wrap="hard" style="background-color: #ccccb3" rows="100" cols="210"></textarea>
-        </div>
-
-        <script src="app.js"></script>
     </body>
 </html>

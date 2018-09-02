@@ -2,16 +2,10 @@ import os
 import re
 import sys
 
-# ART_LOG = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\test_snapshot_on_cloned_vm[iscsi]\\engine.log'
-# ENGINE_LOG = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\test_snapshot_on_cloned_vm[iscsi]\\art_test_runner.log'
-# VDSM_1 = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\test_snapshot_on_cloned_vm[iscsi]\\hypervisor-lynx18_vdsm.log'
-# VDSM_2 = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\test_snapshot_on_cloned_vm[iscsi]\\hypervisor-lynx19_vdsm.log'
-# VDSM_3 = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\test_snapshot_on_cloned_vm[iscsi]\\hypervisor-lynx20_vdsm.log'
-
-ENGINE_OUTPUT = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\outputs\\engine_output.txt'
-VDSM_1_OUTPUT = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\outputs\\vdsm_1_output.txt'
-VDSM_2_OUTPUT = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\outputs\\vdsm_2_output.txt'
-VDSM_3_OUTPUT = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\outputs\\vdsm_3_output.txt'
+ENGINE_OUTPUT = 'C:\\Users\\ormusai35\Desktop\\bug_hunter\BugHunter\\flaskUI\outputs\\engine_output.txt'
+VDSM_1_OUTPUT = 'C:\\Users\\ormusai35\Desktop\\bug_hunter\BugHunter\\flaskUI\outputs\\vdsm_1_output.txt'
+VDSM_2_OUTPUT = 'C:\\Users\\ormusai35\Desktop\\bug_hunter\BugHunter\\flaskUI\outputs\\vdsm_2_output.txt'
+VDSM_3_OUTPUT = 'C:\\Users\\ormusai35\\Desktop\\bug_hunter\\BugHunter\\flaskUI\outputs\\vdsm_3_output.txt'
 
 
 ################# functions ################################################################################
@@ -36,6 +30,9 @@ def find_errors_and_warnings(src_file, dst_file):
             if not d:
                 write_line(line, dst_file)
 
+def file_to_string(file):
+    with open(file, 'r') as myfile:
+        return myfile.read()
 
 def write_line(match, dst_file):
     #####################################
@@ -110,17 +107,14 @@ app = Flask(__name__)
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-def printer(path):
-    print (path)
-
 @app.route('/')
 def home():
 	return render_template('index.html')
 
+
 @app.route('/upload', methods=['POST'])
 def upload():
     target = os.path.join(APP_ROOT, 'logfiles/')[0:-1]
-    print(target)
     file1 = request.files['file1']
     file2 = request.files['file2']
     file3 = request.files['file3']
@@ -131,9 +125,19 @@ def upload():
     vdsm1_file = '\\'.join([target, file3.filename])
     vdsm2_file = '\\'.join([target, file4.filename])
     vdsm3_file = '\\'.join([target, file5.filename])
-    print(engine_file, art_log_file, vdsm1_file, vdsm2_file, vdsm3_file)
+    file1.save(engine_file)
+    file2.save(art_log_file)
+    file3.save(vdsm1_file)
+    file4.save(vdsm2_file)
+    file5.save(vdsm3_file)
+    output_files = engine_output = file_to_string(engine_file)
+    vdsm1_output = file_to_string(vdsm1_file)
+    vdsm2_output = file_to_string(vdsm2_file)
+    vdsm3_output = file_to_string(vdsm3_file)
+
     analyze_log_files(engine_file, art_log_file, vdsm1_file, vdsm2_file, vdsm3_file)
-    return engine_file
+
+    return render_template('response.html',engine_output=engine_output,vdsm1_output=vdsm1_output,vdsm2_output=vdsm2_output,vdsm3_output=vdsm3_output)
 
 
 if __name__ == "__main__":
