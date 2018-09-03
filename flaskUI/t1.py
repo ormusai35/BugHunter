@@ -32,7 +32,11 @@ def find_errors_and_warnings(src_file, dst_file):
 
 def file_to_string(file):
     with open(file, 'r') as myfile:
-        return myfile.read()
+        string = ""
+        for line in myfile:
+            string += str(line) + "\n"
+        return string
+
 
 def write_line(match, dst_file):
     #####################################
@@ -130,12 +134,13 @@ def upload():
     file3.save(vdsm1_file)
     file4.save(vdsm2_file)
     file5.save(vdsm3_file)
-    output_files = engine_output = file_to_string(engine_file)
-    vdsm1_output = file_to_string(vdsm1_file)
-    vdsm2_output = file_to_string(vdsm2_file)
-    vdsm3_output = file_to_string(vdsm3_file)
 
     analyze_log_files(engine_file, art_log_file, vdsm1_file, vdsm2_file, vdsm3_file)
+
+    engine_output = file_to_string(ENGINE_OUTPUT)
+    vdsm1_output = file_to_string(VDSM_1_OUTPUT)
+    vdsm2_output = file_to_string(VDSM_2_OUTPUT)
+    vdsm3_output = file_to_string(VDSM_3_OUTPUT)
 
     return render_template('response.html',engine_output=engine_output,vdsm1_output=vdsm1_output,vdsm2_output=vdsm2_output,vdsm3_output=vdsm3_output)
 
